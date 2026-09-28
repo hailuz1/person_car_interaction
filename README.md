@@ -14,6 +14,7 @@ emitted events match the batch reference (see [Results](#results--verification))
 ## Table of contents
 
 - [What it detects](#what-it-detects)
+- [Demo](#demo)
 - [Requirements](#requirements)
 - [Quick start](#quick-start)
 - [Project layout](#project-layout)
@@ -38,6 +39,12 @@ All three fire provisionally at the earliest causal moment their evidence exists
 knowable once the person has been gone long enough that no future frame can change
 the verdict, so it is emitted at that irreducible latency
 (`min_absence` frames of absence).
+
+## Demo
+
+A few seconds of the annotated output (`clip1`):
+
+![Person–car interaction preview (clip1)](docs/assets/clip1_preview.gif)
 
 ## Requirements
 
