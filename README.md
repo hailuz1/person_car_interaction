@@ -7,7 +7,7 @@ signal. At frame `f` it uses only information from frames `≤ f`, making it
 suitable for real-time / streaming deployments.
 
 It is a faithful refactor of a proven offline SAM3-segmentation pipeline, so the
-emitted events match the batch reference (see [Results](#results--verification)).
+emitted events match the batch reference (see the [project write-up](docs/WRITEUP.md)).
 
 ---
 
@@ -21,6 +21,7 @@ emitted events match the batch reference (see [Results](#results--verification))
 - [File-by-file guide](#file-by-file-guide)
 - [How it works](#how-it-works)
 - [Outputs](#outputs)
+- [Documentation](#documentation)
 
 ---
 
@@ -217,5 +218,12 @@ Per clip, under `runs/<clip>/`:
   emitted, or `none`) and the full `events` list (with their `metrics`). Built
   directly from the emitted events — no re-classification is run at finalize.
 - **`<clip>.mp4`** — annotated video (omitted with `--no-save`).
+
+## Documentation
+
+- **[docs/WRITEUP.md](docs/WRITEUP.md)** — full project write-up (approach, design, results).
+- [docs/ALGORITHM.md](docs/ALGORITHM.md) — the detection algorithm in detail.
+- [docs/STATES_AND_GATES.md](docs/STATES_AND_GATES.md) — states and gate definitions.
+- [docs/CLIPS_METADATA.md](docs/CLIPS_METADATA.md) — per-clip metadata.
 
 
