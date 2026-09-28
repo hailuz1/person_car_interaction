@@ -1,0 +1,130 @@
+[
+  {
+    "person_id": 7,
+    "car_id": 0,
+    "type": "loiter",
+    "frame": 8,
+    "frame_start": 8,
+    "frame_end": 37,
+    "c_start": 1.0,
+    "c_end": 1.0,
+    "motion": 0.0,
+    "duration": 12,
+    "metrics": {
+      "near_frames": {
+        "value": 12,
+        "th": 12,
+        "pass": true
+      },
+      "mean_closeness": 0.998,
+      "car_speed": {
+        "value": 0.0003,
+        "th": 0.041666666666666664,
+        "pass": true
+      },
+      "person_net_drift": {
+        "value": 0.0815,
+        "th": 0.6
+      },
+      "person_straightness": {
+        "value": 0.409,
+        "th": 0.85
+      },
+      "not_walking_past": {
+        "pass": true,
+        "detail": "rejected only if net_drift AND straightness both exceed their thresholds"
+      }
+    }
+  },
+  {
+    "person_id": 7,
+    "car_id": 0,
+    "type": "exit",
+    "frame": 8,
+    "frame_start": 8,
+    "frame_end": 36,
+    "c_start": 1.0,
+    "c_end": 0.667,
+    "motion": 0.223,
+    "duration": 0,
+    "metrics": {
+      "c_start": 1.0,
+      "c_end": 0.667,
+      "diou_start": -0.0172,
+      "diou_end": -0.1146,
+      "closeness_drop": {
+        "value": 0.333,
+        "th": 0.18
+      },
+      "diou_drop": {
+        "value": 0.0974,
+        "th": 0.045
+      },
+      "departed": true
+    }
+  },
+  {
+    "person_id": 8,
+    "car_id": 0,
+    "type": "exit",
+    "frame": 71,
+    "frame_start": 71,
+    "frame_end": 72,
+    "c_start": 1.0,
+    "c_end": 0.747,
+    "motion": 0.041,
+    "duration": 0,
+    "metrics": {
+      "c_start": 1.0,
+      "c_end": 0.7469,
+      "diou_start": -0.0794,
+      "diou_end": -0.1001,
+      "closeness_drop": {
+        "value": 0.2531,
+        "th": 0.18
+      },
+      "diou_drop": {
+        "value": 0.0207,
+        "th": 0.045
+      },
+      "departed": true
+    }
+  },
+  {
+    "person_id": 8,
+    "car_id": 0,
+    "type": "loiter",
+    "frame": 71,
+    "frame_start": 71,
+    "frame_end": 99,
+    "c_start": 1.0,
+    "c_end": 0.698,
+    "motion": 0.0,
+    "duration": 12,
+    "metrics": {
+      "near_frames": {
+        "value": 12,
+        "th": 12,
+        "pass": true
+      },
+      "mean_closeness": 0.7516,
+      "car_speed": {
+        "value": 0.0058,
+        "th": 0.041666666666666664,
+        "pass": true
+      },
+      "person_net_drift": {
+        "value": 0.2037,
+        "th": 0.6
+      },
+      "person_straightness": {
+        "value": 0.7303,
+        "th": 0.85
+      },
+      "not_walking_past": {
+        "pass": true,
+        "detail": "rejected only if net_drift AND straightness both exceed their thresholds"
+      }
+    }
+  }
+]

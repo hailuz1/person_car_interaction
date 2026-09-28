@@ -1,0 +1,11 @@
+name: person_car
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - opencv-python>=4.8
+      - numpy>=1.24
+      # Optional (GPU only, for uncached clips): torch
+

@@ -1,0 +1,118 @@
+[
+  {
+    "person_id": 0,
+    "car_id": 0,
+    "type": "loiter",
+    "frame": 60,
+    "frame_start": 60,
+    "frame_end": 200,
+    "c_start": 1.0,
+    "c_end": 1.0,
+    "motion": 0.0,
+    "duration": 60,
+    "metrics": {
+      "near_frames": {
+        "value": 60,
+        "th": 60,
+        "pass": true
+      },
+      "mean_closeness": 1.0,
+      "car_speed": {
+        "value": 0.0043,
+        "th": 0.008402838164251207,
+        "pass": true
+      },
+      "person_net_drift": {
+        "value": 0.5466,
+        "th": 0.6
+      },
+      "person_straightness": {
+        "value": 0.7637,
+        "th": 0.85
+      },
+      "not_walking_past": {
+        "pass": true,
+        "detail": "rejected only if net_drift AND straightness both exceed their thresholds"
+      }
+    }
+  },
+  {
+    "person_id": 1,
+    "car_id": 0,
+    "type": "loiter",
+    "frame": 119,
+    "frame_start": 119,
+    "frame_end": 200,
+    "c_start": 0.616,
+    "c_end": 1.0,
+    "motion": 0.0,
+    "duration": 60,
+    "metrics": {
+      "near_frames": {
+        "value": 60,
+        "th": 60,
+        "pass": true
+      },
+      "mean_closeness": 0.9123,
+      "car_speed": {
+        "value": 0.0019,
+        "th": 0.008402838164251207,
+        "pass": true
+      },
+      "person_net_drift": {
+        "value": 0.5039,
+        "th": 0.6
+      },
+      "person_straightness": {
+        "value": 0.7953,
+        "th": 0.85
+      },
+      "not_walking_past": {
+        "pass": true,
+        "detail": "rejected only if net_drift AND straightness both exceed their thresholds"
+      }
+    }
+  },
+  {
+    "person_id": 1,
+    "car_id": 0,
+    "type": "enter",
+    "frame": 200,
+    "frame_start": 101,
+    "frame_end": 200,
+    "c_start": 0.263,
+    "c_end": 1.0,
+    "motion": 0.966,
+    "duration": 0,
+    "metrics": {
+      "c_start": 0.2633,
+      "c_end": {
+        "value": 1.0,
+        "th": 0.35,
+        "pass": true
+      },
+      "closeness_rise": {
+        "value": 0.7367,
+        "th": 0.18,
+        "pass": true
+      },
+      "motion": {
+        "value": 0.9662,
+        "th": 0.35,
+        "pass": true
+      },
+      "car_speed": {
+        "value": 0.0031,
+        "th": 0.008402838164251207,
+        "pass": true
+      },
+      "end_overlap": 1.0,
+      "car_frac": 0.4864,
+      "overlap_th": 0.03,
+      "reached": {
+        "value": true,
+        "detail": "end_overlap 1.0000 > 0.03 or c_end 1.0000 >= 0.6"
+      }
+    }
+  }
+]

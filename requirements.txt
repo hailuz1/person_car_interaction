@@ -1,0 +1,8 @@
+# Core runtime dependencies (CPU-only, works with cached clips clip1-clip8)
+opencv-python>=4.8
+numpy>=1.24
+
+# Optional: only needed to run SAM3 tracking on uncached clips (requires a GPU).
+# Install manually along with the SAM3 source at ../src/sam3-main
+# torch
+

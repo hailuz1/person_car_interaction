@@ -1,0 +1,338 @@
+[
+  {
+    "clip_id": "clip1",
+    "type": "loiter",
+    "frame_range": [
+      182,
+      318
+    ],
+    "time_span_s": [
+      6.07,
+      10.61
+    ],
+    "person_id": 3,
+    "person_description": "a small person in mostly grey clothing, centre of frame",
+    "car_id": 22,
+    "car_description": "a small light-grey vehicle, centre of frame"
+  },
+  {
+    "clip_id": "clip1",
+    "type": "loiter",
+    "frame_range": [
+      222,
+      534
+    ],
+    "time_span_s": [
+      7.41,
+      17.82
+    ],
+    "person_id": 4,
+    "person_description": "a small person in mostly black clothing, centre of frame",
+    "car_id": 18,
+    "car_description": "a small black vehicle, centre of frame"
+  },
+  {
+    "clip_id": "clip1",
+    "type": "enter",
+    "frame_range": [
+      0,
+      318
+    ],
+    "time_span_s": [
+      0.0,
+      10.61
+    ],
+    "person_id": 3,
+    "person_description": "a small person in mostly light-grey clothing, centre of frame",
+    "car_id": 22,
+    "car_description": "a small light-grey vehicle, centre of frame"
+  },
+  {
+    "clip_id": "clip1",
+    "type": "enter",
+    "frame_range": [
+      0,
+      534
+    ],
+    "time_span_s": [
+      0.0,
+      17.82
+    ],
+    "person_id": 4,
+    "person_description": "a small person in mostly black clothing, centre of frame",
+    "car_id": 18,
+    "car_description": "a small black vehicle, centre of frame"
+  },
+  {
+    "clip_id": "clip2",
+    "type": "exit",
+    "frame_range": [
+      58,
+      65
+    ],
+    "time_span_s": [
+      1.93,
+      2.17
+    ],
+    "person_id": 3,
+    "person_description": "a medium-sized person in mostly grey clothing, centre of frame",
+    "car_id": 0,
+    "car_description": "a large grey vehicle, centre of frame"
+  },
+  {
+    "clip_id": "clip3",
+    "type": "loiter",
+    "frame_range": [
+      9,
+      201
+    ],
+    "time_span_s": [
+      0.36,
+      8.1
+    ],
+    "person_id": 0,
+    "person_description": "a large person in mostly grey clothing, centre of frame",
+    "car_id": 4,
+    "car_description": "a large grey vehicle, centre of frame"
+  },
+  {
+    "clip_id": "clip3",
+    "type": "exit",
+    "frame_range": [
+      9,
+      169
+    ],
+    "time_span_s": [
+      0.36,
+      6.81
+    ],
+    "person_id": 0,
+    "person_description": "a large person in mostly grey clothing, left of frame",
+    "car_id": 4,
+    "car_description": "a large grey vehicle, centre of frame"
+  },
+  {
+    "clip_id": "clip3",
+    "type": "loiter",
+    "frame_range": [
+      83,
+      215
+    ],
+    "time_span_s": [
+      3.35,
+      8.67
+    ],
+    "person_id": 1,
+    "person_description": "a large person in mostly grey clothing, right of frame",
+    "car_id": 4,
+    "car_description": "a large grey vehicle, centre of frame"
+  },
+  {
+    "clip_id": "clip4",
+    "type": "loiter",
+    "frame_range": [
+      0,
+      181
+    ],
+    "time_span_s": [
+      0.0,
+      27.45
+    ],
+    "person_id": 0,
+    "person_description": "a small person in mostly light-grey clothing, left of frame",
+    "car_id": 16,
+    "car_description": "a large light-grey vehicle, left of frame"
+  },
+  {
+    "clip_id": "clip4",
+    "type": "exit",
+    "frame_range": [
+      131,
+      135
+    ],
+    "time_span_s": [
+      19.87,
+      20.47
+    ],
+    "person_id": 2,
+    "person_description": "a small person in mostly grey clothing, centre of frame",
+    "car_id": 38,
+    "car_description": "a large grey vehicle, centre of frame"
+  },
+  {
+    "clip_id": "clip4",
+    "type": "exit",
+    "frame_range": [
+      138,
+      148
+    ],
+    "time_span_s": [
+      20.93,
+      22.44
+    ],
+    "person_id": 3,
+    "person_description": "a small person in mostly red clothing, left of frame",
+    "car_id": 16,
+    "car_description": "a large light-grey vehicle, left of frame"
+  },
+  {
+    "clip_id": "clip4",
+    "type": "loiter",
+    "frame_range": [
+      138,
+      181
+    ],
+    "time_span_s": [
+      20.93,
+      27.45
+    ],
+    "person_id": 3,
+    "person_description": "a small person in mostly grey clothing, left of frame",
+    "car_id": 16,
+    "car_description": "a large light-grey vehicle, left of frame"
+  },
+  {
+    "clip_id": "clip6",
+    "type": "loiter",
+    "frame_range": [
+      60,
+      200
+    ],
+    "time_span_s": [
+      2.02,
+      6.72
+    ],
+    "person_id": 0,
+    "person_description": "a medium-sized person in mostly grey clothing, centre of frame",
+    "car_id": 0,
+    "car_description": "a large light-grey vehicle, left of frame"
+  },
+  {
+    "clip_id": "clip6",
+    "type": "loiter",
+    "frame_range": [
+      119,
+      200
+    ],
+    "time_span_s": [
+      4.0,
+      6.72
+    ],
+    "person_id": 1,
+    "person_description": "a medium-sized person in mostly grey clothing, centre of frame",
+    "car_id": 0,
+    "car_description": "a large light-grey vehicle, left of frame"
+  },
+  {
+    "clip_id": "clip6",
+    "type": "enter",
+    "frame_range": [
+      101,
+      200
+    ],
+    "time_span_s": [
+      3.39,
+      6.72
+    ],
+    "person_id": 1,
+    "person_description": "a medium-sized person in mostly grey clothing, centre of frame",
+    "car_id": 0,
+    "car_description": "a large light-grey vehicle, left of frame"
+  },
+  {
+    "clip_id": "clip7",
+    "type": "loiter",
+    "frame_range": [
+      8,
+      37
+    ],
+    "time_span_s": [
+      1.33,
+      6.17
+    ],
+    "person_id": 7,
+    "person_description": "a medium-sized person in mostly blue clothing, centre of frame",
+    "car_id": 0,
+    "car_description": "a large grey vehicle, left of frame"
+  },
+  {
+    "clip_id": "clip7",
+    "type": "exit",
+    "frame_range": [
+      8,
+      36
+    ],
+    "time_span_s": [
+      1.33,
+      6.0
+    ],
+    "person_id": 7,
+    "person_description": "a large person in mostly blue clothing, centre of frame",
+    "car_id": 0,
+    "car_description": "a large blue vehicle, left of frame"
+  },
+  {
+    "clip_id": "clip7",
+    "type": "exit",
+    "frame_range": [
+      71,
+      72
+    ],
+    "time_span_s": [
+      11.83,
+      12.0
+    ],
+    "person_id": 8,
+    "person_description": "a small person in mostly light-grey clothing, left of frame",
+    "car_id": 0,
+    "car_description": "a large grey vehicle, left of frame"
+  },
+  {
+    "clip_id": "clip7",
+    "type": "loiter",
+    "frame_range": [
+      71,
+      99
+    ],
+    "time_span_s": [
+      11.83,
+      16.5
+    ],
+    "person_id": 8,
+    "person_description": "a small person in mostly light-grey clothing, left of frame",
+    "car_id": 0,
+    "car_description": "a large light-grey vehicle, left of frame"
+  },
+  {
+    "clip_id": "clip8",
+    "type": "loiter",
+    "frame_range": [
+      0,
+      54
+    ],
+    "time_span_s": [
+      0.0,
+      9.0
+    ],
+    "person_id": 0,
+    "person_description": "a large person in mostly green clothing, left of frame",
+    "car_id": 0,
+    "car_description": "a large grey vehicle, left of frame"
+  },
+  {
+    "clip_id": "clip8",
+    "type": "loiter",
+    "frame_range": [
+      53,
+      88
+    ],
+    "time_span_s": [
+      8.83,
+      14.67
+    ],
+    "person_id": 3,
+    "person_description": "a medium-sized person in mostly blue clothing, right of frame",
+    "car_id": 0,
+    "car_description": "a large grey vehicle, centre of frame"
+  }
+]

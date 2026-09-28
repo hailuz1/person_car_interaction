@@ -1,0 +1,50 @@
+[
+  {
+    "person_id": 1,
+    "n_frames": 482,
+    "result": "none",
+    "events": []
+  },
+  {
+    "person_id": 3,
+    "n_frames": 437,
+    "result": [
+      "exit"
+    ],
+    "events": [
+      {
+        "person_id": 3,
+        "car_id": 0,
+        "type": "exit",
+        "frame": 58,
+        "frame_start": 58,
+        "frame_end": 65,
+        "c_start": 0.852,
+        "c_end": 0.833,
+        "motion": 0.056,
+        "duration": 0,
+        "metrics": {
+          "c_start": 0.8521,
+          "c_end": 0.8334,
+          "diou_start": 0.1434,
+          "diou_end": 0.0952,
+          "closeness_drop": {
+            "value": 0.0187,
+            "th": 0.18
+          },
+          "diou_drop": {
+            "value": 0.0482,
+            "th": 0.045
+          },
+          "departed": true
+        }
+      }
+    ]
+  },
+  {
+    "person_id": 4,
+    "n_frames": 205,
+    "result": "none",
+    "events": []
+  }
+]
