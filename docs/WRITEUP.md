@@ -95,7 +95,7 @@ they are coarse but grounded in the video rather than hand-written.
   interaction - rejected as too permissive (every pedestrian near a car would fire).
 - **Loiter is an interaction.** A person deliberately staying at a stationary car
   (e.g. waiting by a door, loading) is plausibly interacting. *Alternative:* only
-  enter/exit — rejected because it discards meaningful lingering behaviour. Loiter
+  enter/exit - rejected because it discards meaningful lingering behaviour. Loiter
   is guarded by drift/straightness gates so genuine walk-throughs don't fire.
 - **Only stationary vehicles.** Camera-compensated car speed must be near zero.
   A person "entering" a moving car is out of scope and unreliable to judge.
@@ -119,7 +119,7 @@ they are coarse but grounded in the video rather than hand-written.
   diagonal used to normalise distances is large, so proximity scores stay high
   even for people who are merely passing in front of the car. This makes
   pass-by vs. genuine interaction harder to separate.
-- **Partial entering.** The system only recognises a *completed* enter/exit — the
+- **Partial entering.** The system only recognises a *completed* enter/exit - the
   person must fully disappear into (or emerge from) the car. Partial actions, such
   as leaning in to grab something, opening a door without getting in, or a
   half-in/half-out pause, do not cross the absence thresholds and are
