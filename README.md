@@ -6,9 +6,6 @@ interaction at its **earliest causal moment** as a low-latency **provisional**
 signal. At frame `f` it uses only information from frames `≤ f`, making it
 suitable for real-time / streaming deployments.
 
-It is a faithful refactor of a proven offline SAM3-segmentation pipeline, so the
-emitted events match the batch reference (see the [project write-up](docs/WRITEUP.md)).
-
 ---
 
 ## Table of contents
