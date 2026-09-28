@@ -199,38 +199,6 @@ them **one frame at a time** (mirroring a live model), then drives
 frame loop. Writes `event.json` and `diagnostics.json` and, unless disabled, the
 annotated `<clip>.mp4`.
 
-## How it works
-
-```
-              ┌──────────────────────── per frame f (only data ≤ f) ────────────────────────┐
- video ──▶ SAM3 tracks (cache-first) ──▶ reveal boxes+masks for frame f
-                                              │
-                     ┌────────────────────────┴─────────────────────────┐
-                     ▼                                                    ▼
-             CamMotion                                        ProvisionalDriver
-            (f-1 → f affine)                          push_frame(persons, cars, cam)
-                     │                                                    │
-                     └──────────────── cam motion ───────────────────────┤
-                                                                          ▼
-                                                        loiter/exit/enter  ──▶ Event
-                                                                          │
-                                                                          ▼
-                                                                    Visualizer.draw
-                                                                          │
-                                             event.json · diagnostics.json · mp4
-```
-
-1. **Tracking (causal by construction).** SAM3 forward propagation is causal;
-   the runner loads it from cache (or runs it once) and reveals each frame's boxes
-   and mask descriptors only when that frame arrives.
-2. **Camera motion.** Fitted from the previous + current frame to tell real car
-   motion from ego-motion.
-3. **Provisional driver.** Emits loiter, exit, and enter each at its earliest
-   causal moment (loiter with zero latency, exit at the first departure window,
-   enter once the person has stayed absent past the `min_absence` horizon).
-4. **Segmentation axis gate.** Enter/exit events off the car's major axis are
-   dropped using the SAM3 mask ellipse.
-
 ## Outputs
 
 Per clip, under `runs/<clip>/`:
